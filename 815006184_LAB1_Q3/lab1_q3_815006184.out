@@ -1,0 +1,202 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2020.12.21 20:07:19 =~=~=~=~=~=~=~=~=~=~=~=
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 7136, room 16 
+tail 0
+chksum 0xd4
+load 0x3ffe8408, len 24, room 8 
+tail 0
+chksum 0x6d
+load 0x3ffe8420, len 3328, room 8 
+tail 8
+chksum 0x28
+csum 0x28[0;32mI (43) boot: ESP-IDF v3.4-dev-363-gdda5062c 2nd stage bootloader[0m
+[0;32mI (43) boot: compile time 04:26:59[0m
+[0;32mI (44) boot: SPI Speed      : 40MHz[0m
+[0;32mI (50) boot: SPI Mode       : DOUT[0m
+[0;32mI (56) boot: SPI Flash Size : 1MB[0m
+[0;32mI (63) boot: Partition Table:[0m
+[0;32mI (68) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (79) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (91) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (102) boot:  2 factory          factory app      00 00 00010000 000f0000[0m
+[0;32mI (114) boot: End of partition table[0m
+[0;32mI (120) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x168f0 ( 92400) map[0m
+[0;32mI (174) esp_image: segment 1: paddr=0x00026908 vaddr=0x40226900 size=0x05e98 ( 24216) map[0m
+[0;32mI (185) esp_image: segment 2: paddr=0x0002c7a8 vaddr=0x3ffe8000 size=0x003dc (   988) load[0m
+[0;32mI (186) esp_image: segment 3: paddr=0x0002cb8c vaddr=0x40100000 size=0x00080 (   128) load[0m
+[0;32mI (199) esp_image: segment 4: paddr=0x0002cc14 vaddr=0x40100080 size=0x045fc ( 17916) load[0m
+[0;32mI (220) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (241) gpio: GPIO[0]| InputEn: 0| OutputEn: 1| OpenDrain: 1| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (244) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 1| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (255) main: *****************************************:
+[0m
+[0;32mI (265) main: 
+ Voltage Output at AN0 (One shot mode): 2.48
+[0m
+[0;32mI (275) main: *****************************************:
+[0m
+[0;32mI (285) main: Voltage Output at AN0 3.2
+[0m
+[0;32mI (292) main: *****************************************:
+[0m
+[0;32mI (301) main: Voltage Output at AN0 3.1
+[0m
+[0;32mI (309) main: *****************************************:
+[0m
+[0;32mI (318) main: Voltage Output at AN0 3.1
+[0m
+[0;32mI (326) main: *****************************************:
+[0m
+[0;32mI (335) main: Voltage Output at AN0 3.1
+[0m
+[0;32mI (343) main: *****************************************:
+[0m
+[0;32mI (353) main: Voltage Output at AN0 3.1
+[0m
+[0;32mI (360) main: *****************************************:
+[0m
+[0;32mI (370) main: Voltage Output at AN0 3.1
+[0m
+[0;32mI (377) main: *****************************************:
+[0m
+[0;32mI (387) main: Voltage Output at AN0 3.1
+[0m
+[0;32mI (394) main: *****************************************:
+[0m
+[0;32mI (404) main: Voltage Output at AN0 3.1
+[0m
+[0;32mI (411) main: *****************************************:
+[0m
+[0;32mI (421) main: Voltage Output at AN0 3.1
+[0m
+[0;32mI (428) main: *****************************************:
+[0m
+[0;32mI (438) main: Voltage Output at AN0 3.1
+[0m
+[0;32mI (445) main: *****************************************:
+[0m
+[0;32mI (455) main: Voltage Output at AN0 3.1
+[0m
+[0;32mI (462) main: *****************************************:
+[0m
+[0;32mI (472) main: Voltage Output at AN0 3.1
+[0m
+[0;32mI (480) main: *****************************************:
+[0m
+[0;32mI (489) main: Voltage Output at AN0 3.1
+[0m
+[0;32mI (497) main: *****************************************:
+[0m
+[0;32mI (506) main: Voltage Output at AN0 3.1
+[0m
+[0;32mI (514) main: *****************************************:
+[0m
+[0;32mI (523) main: Voltage Output at AN0 3.0
+[0m
+[0;32mI (531) main: *****************************************:
+[0m
+[0;32mI (540) main: Voltage Output at AN0 3.0
+[0m
+[0;32mI (548) main: *****************************************:
+[0m
+[0;32mI (558) main: Voltage Output at AN0 3.0
+[0m
+[0;32mI (565) main: *****************************************:
+[0m
+[0;32mI (575) main: Voltage Output at AN0 3.0
+[0m
+[0;32mI (582) main: *****************************************:
+[0m
+[0;32mI (1585) main: *****************************************:
+[0m
+[0;32mI (1587) main: 
+ Voltage Output at AN0 (One shot mode): 3.10
+[0m
+[0;32mI (1589) main: *****************************************:
+[0m
+[0;32mI (1599) main: Voltage Output at AN0 3.17
+[0m
+[0;32mI (1607) main: *****************************************:
+[0m
+[0;32mI (1616) main: Voltage Output at AN0 3.17
+[0m
+[0;32mI (1624) main: *****************************************:
+[0m
+[0;32mI (1634) main: Voltage Output at AN0 3.17
+[0m
+[0;32mI (1641) main: *****************************************:
+[0m
+[0;32mI (1651) main: Voltage Output at AN0 3.17
+[0m
+[0;32mI (1659) main: *****************************************:
+[0m
+[0;32mI (1668) main: Voltage Output at AN0 3.17
+[0m
+[0;32mI (1676) main: *****************************************:
+[0m
+[0;32mI (1686) main: Voltage Output at AN0 3.17
+[0m
+[0;32mI (1693) main: *****************************************:
+[0m
+[0;32mI (1703) main: Voltage Output at AN0 3.17
+[0m
+[0;32mI (1711) main: *****************************************:
+[0m
+[0;32mI (1720) main: Voltage Output at AN0 3.16
+[0m
+[0;32mI (1728) main: *****************************************:
+[0m
+[0;32mI (1738) main: Voltage Output at AN0 3.16
+[0m
+[0;32mI (1745) main: *****************************************:
+[0m
+[0;32mI (1755) main: Voltage Output at AN0 3.16
+[0m
+[0;32mI (1763) main: *****************************************:
+[0m
+[0;32mI (1772) main: Voltage Output at AN0 3.16
+[0m
+[0;32mI (1780) main: *****************************************:
+[0m
+[0;32mI (1790) main: Voltage Output at AN0 3.16
+[0m
+[0;32mI (1797) main: *****************************************:
+[0m
+[0;32mI (1807) main: Voltage Output at AN0 3.16
+[0m
+[0;32mI (1815) main: *****************************************:
+[0m
+[0;32mI (1815) main: Voltage Output at AN0 3.16
+[0m
+[0;32mI (1832) main: *****************************************:
+[0m
+[0;32mI (1842) main: Voltage Output at AN0 3.16
+[0m
+[0;32mI (1849) main: *****************************************:
+[0m
+[0;32mI (1859) main: Voltage Output at AN0 3.16
+[0m
+[0;32mI (1867) main: *****************************************:
+[0m
+[0;32mI (1877) main: Voltage Output at AN0 3.16
+[0m
+[0;32mI (1884) main: *****************************************:
+[0m
+[0;32mI (1894) main: Voltage Output at AN0 3.16
+[0m
+[0;32mI (1902) main: *****************************************:
+[0m
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+Core 0 register dump:
+PC      : 0x00000000  PS      : 0x00000030  A0      : 0x00000000  A1      : 0x3ffebdd0  
+A2      : 0x00000000  A3      : 0x00000000  A4      : 0x3ffebe98  A5      : 0xbffeb5cc  
+A6      : 0xbffebe4c  A7      : 0x0000010c  A8      : 0x0000002c  A9      : 0x00000090  
+A10     : 0x0a0d3a2a  A11     : 0x2a2a2a2a  A12     : 0x00000000  A13     : 0x00000000  
+A14     : 0x00000000  A15     : 0x00000000  SAR     : 0x0000001f  EXCCAUSE: 0x00000014  
+
+Backtrace: 0x0:0x3ffebdd0 
+Entering gdb stub now.
+$T0b#e6ÿÿÿÿ6( 
+ 
